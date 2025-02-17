@@ -1,6 +1,6 @@
-**Prediction of Water Pumps Functionality**
+#Prediction of Water Pumps Functionality
 
-Overview
+##Overview
 
 This project focuses on predicting the functionality of water pumps using data from the Ministry of Water of the United Republic of Tanzania. The dataset contains various attributes related to pump characteristics, location, and operational status. Multiple machine learning models have been implemented to classify whether a pump is functional, non-functional, or functional but requiring repairs.
 
@@ -14,9 +14,9 @@ Machine Learning Models: Logistic Regression, Decision Tree, Neural Network, Ran
 
 Tools: Jupyter Notebook, SAS Enterprise Miner, Excel
 
-Project Workflow
+##Project Workflow
 
-1. Data Collection and Preprocessing
+###1. Data Collection and Preprocessing
 
 The dataset consists of 47,521 records with 41 columns.
 
@@ -26,7 +26,7 @@ Irrelevant columns such as ID, wpt_name, subvillage, and funder were removed to 
 
 Geolocation inconsistencies were corrected by replacing incorrect longitude values with their mean.
 
-2. Exploratory Data Analysis (EDA)
+###2. Exploratory Data Analysis (EDA)
 
 Conducted descriptive statistics using Pandas.
 
@@ -34,13 +34,13 @@ Visualized the distribution of water pump functionality status.
 
 Analyzed feature importance through correlation heatmaps and bar charts.
 
-3. Feature Engineering
+###3. Feature Engineering
 
 Selected relevant features like GPS height, region, basin, public meeting, scheme management, and permit status.
 
 Engineered new attributes, such as categorizing the construction year into age brackets.
 
-4. Machine Learning Model Implementation
+###4. Machine Learning Model Implementation
 
 Logistic Regression: Implemented default and stepwise selection models.
 
@@ -50,7 +50,7 @@ Neural Network: Applied an AutoNeural approach to optimize prediction accuracy.
 
 Random Forest: Used ensemble learning to improve classification performance.
 
-5. Model Evaluation and Comparison
+###5. Model Evaluation and Comparison
 
 Evaluated models based on accuracy, misclassification rate, and mean squared error.
 
@@ -58,7 +58,7 @@ Best Performing Model: Decision Tree 2 achieved the highest accuracy (~88.18%).
 
 Compared different models and discussed their trade-offs in terms of generalization and overfitting.
 
-6. Key Findings and Insights
+###6. Key Findings and Insights
 
 The most influential factors affecting pump functionality were construction year, population size, waterpoint type, and location-based attributes.
 
@@ -66,7 +66,7 @@ The dataset exhibited class imbalance, requiring careful handling to avoid biase
 
 The Decision Tree 2 model emerged as the most accurate predictor, making it a valuable tool for prioritizing maintenance efforts in Tanzania.
 
-7. Future Enhancements
+###7. Future Enhancements
 
 Improving Feature Selection: Exploring more advanced dimensionality reduction techniques.
 
@@ -80,13 +80,9 @@ Clone the repository from GitHub.
 
 Install dependencies using pip install -r requirements.txt.
 
-Open and run the Jupyter Notebook (5240_Final_Project_Commented.ipynb).
+Open and run the Jupyter Notebook (Prediction of Water Pumps Functionality_Sai Teja Kode.ipynb).
 
 Review the results and compare model performances.
 
-Author
 
-Tejasree BurkaMaster of Science in Business AnalyticsGitHub: [Your GitHub Profile]
-
-This README provides a structured overview of the project and makes it easy for others to understand and replicate the work.
 
